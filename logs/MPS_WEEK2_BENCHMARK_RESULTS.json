@@ -1,0 +1,38 @@
+{
+  "mps_time": 0.0019981861114501953,
+  "classical_time": 0.0019991397857666016,
+  "speedup_factor": 1.0004772700155113,
+  "mps_memory_mb": 0.0,
+  "classical_memory_mb": 0.0,
+  "memory_reduction": 0.0,
+  "weight_difference": 1.0390628799670605,
+  "max_weight_error": 0.8174486449398376,
+  "relative_error": 149.36950916330463,
+  "mps_weights": [
+    1.0067231061063049,
+    0.11903073565042234,
+    0.11903073467168154,
+    -0.2447845764284087
+  ],
+  "classical_weights": [
+    0.38562171521330796,
+    0.0773651680361812,
+    -0.03565095176091809,
+    0.5726640685114289
+  ],
+  "mps_expected_return": 0.00034057024692473045,
+  "classical_expected_return": 5.200364228767062e-05,
+  "bond_dimensions": [
+    4,
+    4,
+    4
+  ],
+  "compression_ratio": 0.3076923076923077,
+  "timestamp": 1755408705.4189005,
+  "etf_symbols": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "TLT"
+  ]
+}

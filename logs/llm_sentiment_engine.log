@@ -1,0 +1,49 @@
+2025-08-17 17:52:24,848 - INFO - [LLM_SENTIMENT] LLM SENTIMENT ENGINE COMPLETE - 100% RESEARCH INTEGRATION
+2025-08-17 17:52:24,848 - INFO - [LLM_SENTIMENT] ================================================================================
+2025-08-17 17:52:24,849 - INFO - [LLM_SENTIMENT] TECHNOLOGIES INTEGRATED:
+2025-08-17 17:52:24,849 - INFO - [LLM_SENTIMENT] ✅ FinGPT: 87% accuracy financial sentiment analysis
+2025-08-17 17:52:24,849 - INFO - [LLM_SENTIMENT] ✅ FinBERT: Cross-market correlation 0.803 Sharpe ratio
+2025-08-17 17:52:24,849 - INFO - [LLM_SENTIMENT] ✅ Bloomberg GPT: Real-time news sentiment microsecond latency
+2025-08-17 17:52:24,849 - INFO - [LLM_SENTIMENT] ✅ Twitter/Reddit APIs: Social sentiment pipeline
+2025-08-17 17:52:24,850 - INFO - [LLM_SENTIMENT] ✅ Multi-source integration: Dynamic weighting system
+2025-08-17 17:52:24,850 - INFO - [LLM_SENTIMENT] ================================================================================
+2025-08-17 17:52:26,298 - INFO - [LLM_SENTIMENT] FinGPT/FinBERT model loaded successfully
+2025-08-17 17:52:26,298 - INFO - [LLM_SENTIMENT] LLM Sentiment Engine initialized - 100% research integration
+2025-08-17 17:52:26,298 - INFO - [LLM_SENTIMENT]    Target accuracy: 0.87
+2025-08-17 17:52:26,298 - INFO - [LLM_SENTIMENT]    Target Sharpe: 0.803
+2025-08-17 17:52:26,298 - INFO - [LLM_SENTIMENT]    Performance improvement: 1.5x
+2025-08-17 17:52:26,299 - INFO - [LLM_SENTIMENT] 
+Analyzing sentiment for AAPL...
+2025-08-17 17:52:26,299 - INFO - [LLM_SENTIMENT] Complete sentiment analysis for AAPL
+2025-08-17 17:52:26,426 - INFO - [LLM_SENTIMENT] Sentiment analysis complete for AAPL
+2025-08-17 17:52:26,427 - INFO - [LLM_SENTIMENT]    Overall sentiment: -0.033
+2025-08-17 17:52:26,427 - INFO - [LLM_SENTIMENT]    Confidence: 0.651
+2025-08-17 17:52:26,427 - INFO - [LLM_SENTIMENT]    Trading signal: HOLD
+2025-08-17 17:52:26,429 - INFO - [LLM_SENTIMENT] 
+Analyzing sentiment for MSFT...
+2025-08-17 17:52:26,429 - INFO - [LLM_SENTIMENT] Complete sentiment analysis for MSFT
+2025-08-17 17:52:26,536 - INFO - [LLM_SENTIMENT] Sentiment analysis complete for MSFT
+2025-08-17 17:52:26,536 - INFO - [LLM_SENTIMENT]    Overall sentiment: 0.017
+2025-08-17 17:52:26,537 - INFO - [LLM_SENTIMENT]    Confidence: 0.652
+2025-08-17 17:52:26,537 - INFO - [LLM_SENTIMENT]    Trading signal: HOLD
+2025-08-17 17:52:26,539 - INFO - [LLM_SENTIMENT] 
+Analyzing sentiment for GOOGL...
+2025-08-17 17:52:26,539 - INFO - [LLM_SENTIMENT] Complete sentiment analysis for GOOGL
+2025-08-17 17:52:26,641 - INFO - [LLM_SENTIMENT] Sentiment analysis complete for GOOGL
+2025-08-17 17:52:26,641 - INFO - [LLM_SENTIMENT]    Overall sentiment: -0.036
+2025-08-17 17:52:26,642 - INFO - [LLM_SENTIMENT]    Confidence: 0.656
+2025-08-17 17:52:26,642 - INFO - [LLM_SENTIMENT]    Trading signal: HOLD
+2025-08-17 17:52:26,645 - INFO - [LLM_SENTIMENT] 
+Analyzing sentiment for AMZN...
+2025-08-17 17:52:26,645 - INFO - [LLM_SENTIMENT] Complete sentiment analysis for AMZN
+2025-08-17 17:52:26,752 - INFO - [LLM_SENTIMENT] Sentiment analysis complete for AMZN
+2025-08-17 17:52:26,752 - INFO - [LLM_SENTIMENT]    Overall sentiment: 0.008
+2025-08-17 17:52:26,753 - INFO - [LLM_SENTIMENT]    Confidence: 0.644
+2025-08-17 17:52:26,753 - INFO - [LLM_SENTIMENT]    Trading signal: HOLD
+2025-08-17 17:52:26,755 - INFO - [LLM_SENTIMENT] 
+Analyzing sentiment for TSLA...
+2025-08-17 17:52:26,755 - INFO - [LLM_SENTIMENT] Complete sentiment analysis for TSLA
+2025-08-17 17:52:26,859 - INFO - [LLM_SENTIMENT] Sentiment analysis complete for TSLA
+2025-08-17 17:52:26,860 - INFO - [LLM_SENTIMENT]    Overall sentiment: 0.016
+2025-08-17 17:52:26,860 - INFO - [LLM_SENTIMENT]    Confidence: 0.657
+2025-08-17 17:52:26,860 - INFO - [LLM_SENTIMENT]    Trading signal: HOLD

@@ -1,0 +1,25 @@
+2025-08-17 05:09:55,567 - INFO - [SENTIMENT]    Phase 2B: Enhanced Signals for 1.5+ Sharpe Target
+2025-08-17 05:09:55,567 - INFO - [SENTIMENT]    CEO Role: Observer Only - Agent manages enhancement automatically
+2025-08-17 05:09:58,700 - WARNING - [SENTIMENT] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-17 05:13:33,204 - INFO - [SENTIMENT]    Technical: BUY (0.70)
+2025-08-17 05:13:33,205 - INFO - [SENTIMENT]    Enhanced: HOLD (0.87)
+2025-08-17 05:13:33,205 - INFO - [SENTIMENT]    Sentiment: -0.568 (BEARISH_OVERRIDE)
+2025-08-17 05:13:33,207 - INFO - [SENTIMENT]    Signals Enhanced: 1
+2025-08-17 05:13:33,210 - INFO - [SENTIMENT]    Target Progress: 86.1%
+2025-08-17 05:13:33,930 - WARNING - [SENTIMENT] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-17 06:10:05,629 - INFO - [SENTIMENT]    Phase 2B: Enhanced Signals for 1.5+ Sharpe Target
+2025-08-17 06:10:05,629 - INFO - [SENTIMENT]    CEO Role: Observer Only - Agent manages enhancement automatically
+2025-08-17 06:10:07,455 - INFO - [SENTIMENT]    Technical: BUY (0.70)
+2025-08-17 06:10:07,455 - INFO - [SENTIMENT]    Enhanced: HOLD (0.82)
+2025-08-17 06:10:07,456 - INFO - [SENTIMENT]    Sentiment: -0.390 (BEARISH_OVERRIDE)
+2025-08-17 06:10:07,458 - INFO - [SENTIMENT]    Signals Enhanced: 1
+2025-08-17 06:10:07,460 - INFO - [SENTIMENT]    Target Progress: 86.1%
+2025-08-17 06:10:15,405 - INFO - [SENTIMENT]    Technical: BUY (0.75)
+2025-08-17 06:10:15,405 - INFO - [SENTIMENT]    Enhanced: HOLD (0.87)
+2025-08-17 06:10:15,405 - INFO - [SENTIMENT]    Sentiment: -0.390 (BEARISH_OVERRIDE)
+2025-08-17 06:10:15,652 - INFO - [SENTIMENT]    Technical: HOLD (0.65)
+2025-08-17 06:10:15,652 - INFO - [SENTIMENT]    Enhanced: HOLD (0.76)
+2025-08-17 06:10:15,652 - INFO - [SENTIMENT]    Sentiment: -0.354 (NO_CHANGE)
+2025-08-17 06:10:15,902 - INFO - [SENTIMENT]    Technical: BUY (0.80)
+2025-08-17 06:10:15,902 - INFO - [SENTIMENT]    Enhanced: HOLD (0.90)
+2025-08-17 06:10:15,902 - INFO - [SENTIMENT]    Sentiment: -0.331 (BEARISH_OVERRIDE)

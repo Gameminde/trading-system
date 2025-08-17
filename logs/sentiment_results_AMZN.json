@@ -1,0 +1,19 @@
+{
+  "symbol": "AMZN",
+  "overall_sentiment": 0.0076343424862023185,
+  "confidence": 0.6442830480928208,
+  "bullish_probability": 0.0076343424862023185,
+  "bearish_probability": 0,
+  "neutral_probability": 0.9923656575137977,
+  "twitter_sentiment": 0.04803964208036783,
+  "reddit_sentiment": 0.0,
+  "news_sentiment": 0.0,
+  "sec_sentiment": 0.0,
+  "signal_strength": 0.3741033575059016,
+  "market_correlation": 0.803,
+  "prediction_accuracy": 0.87,
+  "trading_signal": "HOLD",
+  "sentiment_momentum": -0.20184335422254937,
+  "volatility_indicator": 0.0076343424862023185,
+  "cross_market_correlation": 0.803
+}

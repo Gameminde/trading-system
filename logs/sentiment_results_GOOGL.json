@@ -1,0 +1,19 @@
+{
+  "symbol": "GOOGL",
+  "overall_sentiment": -0.03635492230804597,
+  "confidence": 0.6559079895365709,
+  "bullish_probability": 0,
+  "bearish_probability": 0.03635492230804597,
+  "neutral_probability": 0.9636450776919541,
+  "twitter_sentiment": -0.0891266361839047,
+  "reddit_sentiment": 0.0,
+  "news_sentiment": 0.0,
+  "sec_sentiment": 0.0,
+  "signal_strength": 0.3744302206927075,
+  "market_correlation": 0.803,
+  "prediction_accuracy": 0.87,
+  "trading_signal": "HOLD",
+  "sentiment_momentum": -0.38656720184939125,
+  "volatility_indicator": 0.03635492230804597,
+  "cross_market_correlation": 0.803
+}

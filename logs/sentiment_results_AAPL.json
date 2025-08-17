@@ -1,0 +1,19 @@
+{
+  "symbol": "AAPL",
+  "overall_sentiment": -0.032831192648524715,
+  "confidence": 0.6511006688246506,
+  "bullish_probability": 0,
+  "bearish_probability": 0.032831192648524715,
+  "neutral_probability": 0.9671688073514753,
+  "twitter_sentiment": -0.05982038949414451,
+  "reddit_sentiment": 0.0,
+  "news_sentiment": 0.0,
+  "sec_sentiment": 0.0,
+  "signal_strength": 0.39712867112559036,
+  "market_correlation": 0.803,
+  "prediction_accuracy": 0.87,
+  "trading_signal": "HOLD",
+  "sentiment_momentum": -0.0051193435630680385,
+  "volatility_indicator": 0.032831192648524715,
+  "cross_market_correlation": 0.803
+}

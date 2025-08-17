@@ -1,0 +1,413 @@
+2025-08-17 06:57:18,806 - INFO - [WEEK4_PRODUCTION] MPS WEEK 4 - PRODUCTION PERFORMANCE BREAKTHROUGH FINALE
+2025-08-17 06:57:18,806 - INFO - [WEEK4_PRODUCTION] ================================================================================
+2025-08-17 06:57:18,807 - INFO - [WEEK4_PRODUCTION] CEO DIRECTIVE: >=10x speedup + 100+ assets + production deployment ready
+2025-08-17 06:57:18,807 - INFO - [WEEK4_PRODUCTION] MISSION STATUS: Week 3 extraordinary foundation -> Week 4 breakthrough confident
+2025-08-17 06:57:18,807 - INFO - [WEEK4_PRODUCTION] FINAL TARGET: Phase 3 quantum integration foundation complete
+2025-08-17 06:57:18,807 - INFO - [WEEK4_PRODUCTION] ================================================================================
+2025-08-17 06:57:18,807 - INFO - [WEEK4_PRODUCTION] Production S&P 500 Portfolio Generator initialized
+2025-08-17 06:57:18,808 - INFO - [WEEK4_PRODUCTION]    Sectors: 11 with 173 stocks
+2025-08-17 06:57:18,808 - INFO - [WEEK4_PRODUCTION]    International ETFs: 14
+2025-08-17 06:57:18,808 - INFO - [WEEK4_PRODUCTION]    Bond ETFs: 14
+2025-08-17 06:57:18,808 - INFO - [WEEK4_PRODUCTION] Production MPS Engine initialized
+2025-08-17 06:57:18,808 - INFO - [WEEK4_PRODUCTION]    GPU acceleration: False
+2025-08-17 06:57:18,808 - INFO - [WEEK4_PRODUCTION]    Available devices: 0
+2025-08-17 06:57:18,808 - INFO - [WEEK4_PRODUCTION]    Tolerance: 1e-05
+2025-08-17 06:57:18,809 - INFO - [WEEK4_PRODUCTION]    Max bond dimension: 100
+2025-08-17 06:57:18,809 - INFO - [WEEK4_PRODUCTION] Week 4 Production Benchmark initialized
+2025-08-17 06:57:18,809 - INFO - [WEEK4_PRODUCTION]    Portfolio sizes for testing: [50, 75, 100, 125, 150]
+2025-08-17 06:57:18,809 - INFO - [WEEK4_PRODUCTION]    Benchmark runs per size: 5
+2025-08-17 06:57:18,809 - INFO - [WEEK4_PRODUCTION] Starting Week 4 Production Benchmark - BREAKTHROUGH VALIDATION
+2025-08-17 06:57:18,809 - INFO - [WEEK4_PRODUCTION] 
+Testing portfolio size: 50 assets
+2025-08-17 06:57:18,809 - INFO - [WEEK4_PRODUCTION] Production benchmarking 50-asset portfolio
+2025-08-17 06:57:18,810 - INFO - [WEEK4_PRODUCTION] Generating S&P 500 portfolio: 50 assets
+2025-08-17 06:57:18,810 - INFO - [WEEK4_PRODUCTION]    Allocation: 40 stocks, 6 international, 4 bonds
+2025-08-17 06:57:18,810 - INFO - [WEEK4_PRODUCTION] S&P 500 portfolio generated: 50 assets
+2025-08-17 06:57:18,810 - INFO - [WEEK4_PRODUCTION]    Sector breakdown: 13 sectors
+2025-08-17 06:57:18,811 - INFO - [WEEK4_PRODUCTION]    Asset types: {'Stock', 'ETF', 'Bond ETF'}
+2025-08-17 06:57:18,811 - INFO - [WEEK4_PRODUCTION]    Geographic coverage: {np.str_('Global'), np.str_('Europe'), 'US'}
+2025-08-17 06:57:18,811 - INFO - [WEEK4_PRODUCTION] Generating realistic returns: 50 assets, 504 days
+2025-08-17 06:57:18,813 - INFO - [WEEK4_PRODUCTION] Realistic returns generated: (504, 50)
+2025-08-17 06:57:18,815 - INFO - [WEEK4_PRODUCTION]    Return stats: mean=0.000674, std=0.009294
+2025-08-17 06:57:18,819 - INFO - [WEEK4_PRODUCTION]    Correlation range: 0.726 to 1.000
+2025-08-17 06:57:18,819 - INFO - [WEEK4_PRODUCTION]    Run 1/5
+2025-08-17 06:57:18,820 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 0.702ms (us precision)
+2025-08-17 06:57:18,820 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:18,868 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:18,869 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 47.835ms (us precision)
+2025-08-17 06:57:18,869 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:18,916 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:18,916 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 48.012ms (us precision)
+2025-08-17 06:57:18,917 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:18,917 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (49,) + inhomogeneous part.
+2025-08-17 06:57:18,917 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.397ms (us precision)
+2025-08-17 06:57:18,917 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 96.977ms (us precision)
+2025-08-17 06:57:18,917 - INFO - [WEEK4_PRODUCTION]    Run 2/5
+2025-08-17 06:57:18,918 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 0.602ms (us precision)
+2025-08-17 06:57:18,918 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:18,966 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:18,967 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 48.179ms (us precision)
+2025-08-17 06:57:18,967 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,015 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:19,015 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 48.230ms (us precision)
+2025-08-17 06:57:19,016 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:19,016 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (49,) + inhomogeneous part.
+2025-08-17 06:57:19,016 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.480ms (us precision)
+2025-08-17 06:57:19,016 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 97.632ms (us precision)
+2025-08-17 06:57:19,017 - INFO - [WEEK4_PRODUCTION]    Run 3/5
+2025-08-17 06:57:19,017 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 0.606ms (us precision)
+2025-08-17 06:57:19,017 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,066 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:19,066 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 48.553ms (us precision)
+2025-08-17 06:57:19,067 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,115 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:19,116 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 48.936ms (us precision)
+2025-08-17 06:57:19,116 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:19,116 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (49,) + inhomogeneous part.
+2025-08-17 06:57:19,116 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.430ms (us precision)
+2025-08-17 06:57:19,117 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 98.587ms (us precision)
+2025-08-17 06:57:19,117 - INFO - [WEEK4_PRODUCTION]    Run 4/5
+2025-08-17 06:57:19,117 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 0.575ms (us precision)
+2025-08-17 06:57:19,118 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,165 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:19,165 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 47.889ms (us precision)
+2025-08-17 06:57:19,165 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,213 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:19,213 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 47.799ms (us precision)
+2025-08-17 06:57:19,213 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:19,214 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (49,) + inhomogeneous part.
+2025-08-17 06:57:19,214 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.399ms (us precision)
+2025-08-17 06:57:19,214 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 96.739ms (us precision)
+2025-08-17 06:57:19,214 - INFO - [WEEK4_PRODUCTION]    Run 5/5
+2025-08-17 06:57:19,215 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 0.579ms (us precision)
+2025-08-17 06:57:19,215 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,263 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:19,264 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 48.194ms (us precision)
+2025-08-17 06:57:19,264 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,311 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 49 cores, bonds [45, 44, 43, 42, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 1]
+2025-08-17 06:57:19,311 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 48.120ms (us precision)
+2025-08-17 06:57:19,312 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:19,312 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (49,) + inhomogeneous part.
+2025-08-17 06:57:19,312 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.384ms (us precision)
+2025-08-17 06:57:19,312 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 97.337ms (us precision)
+2025-08-17 06:57:19,313 - INFO - [WEEK4_PRODUCTION]    Production Results: 0.01x speedup, 0.1090 accuracy
+2025-08-17 06:57:19,313 - INFO - [WEEK4_PRODUCTION]    Memory efficiency: 99.9% reduction
+2025-08-17 06:57:19,313 - INFO - [WEEK4_PRODUCTION] 
+Testing portfolio size: 75 assets
+2025-08-17 06:57:19,313 - INFO - [WEEK4_PRODUCTION] Production benchmarking 75-asset portfolio
+2025-08-17 06:57:19,313 - INFO - [WEEK4_PRODUCTION] Generating S&P 500 portfolio: 75 assets
+2025-08-17 06:57:19,314 - INFO - [WEEK4_PRODUCTION]    Allocation: 60 stocks, 9 international, 6 bonds
+2025-08-17 06:57:19,314 - INFO - [WEEK4_PRODUCTION] S&P 500 portfolio generated: 75 assets
+2025-08-17 06:57:19,314 - INFO - [WEEK4_PRODUCTION]    Sector breakdown: 13 sectors
+2025-08-17 06:57:19,314 - INFO - [WEEK4_PRODUCTION]    Asset types: {'Stock', 'ETF', 'Bond ETF'}
+2025-08-17 06:57:19,314 - INFO - [WEEK4_PRODUCTION]    Geographic coverage: {np.str_('Emerging Markets'), np.str_('Europe'), np.str_('Asia-Pacific'), 'US'}
+2025-08-17 06:57:19,315 - INFO - [WEEK4_PRODUCTION] Generating realistic returns: 75 assets, 504 days
+2025-08-17 06:57:19,318 - INFO - [WEEK4_PRODUCTION] Realistic returns generated: (504, 75)
+2025-08-17 06:57:19,319 - INFO - [WEEK4_PRODUCTION]    Return stats: mean=0.000682, std=0.009297
+2025-08-17 06:57:19,327 - INFO - [WEEK4_PRODUCTION]    Correlation range: 0.707 to 1.000
+2025-08-17 06:57:19,328 - INFO - [WEEK4_PRODUCTION]    Run 1/5
+2025-08-17 06:57:19,330 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 1.998ms (us precision)
+2025-08-17 06:57:19,330 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,379 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,379 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 48.918ms (us precision)
+2025-08-17 06:57:19,379 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,429 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,429 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 49.934ms (us precision)
+2025-08-17 06:57:19,430 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:19,430 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (74,) + inhomogeneous part.
+2025-08-17 06:57:19,430 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.399ms (us precision)
+2025-08-17 06:57:19,430 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 100.089ms (us precision)
+2025-08-17 06:57:19,431 - INFO - [WEEK4_PRODUCTION]    Run 2/5
+2025-08-17 06:57:19,433 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 2.054ms (us precision)
+2025-08-17 06:57:19,433 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,482 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,483 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 49.885ms (us precision)
+2025-08-17 06:57:19,483 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,533 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,533 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 50.287ms (us precision)
+2025-08-17 06:57:19,533 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:19,534 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (74,) + inhomogeneous part.
+2025-08-17 06:57:19,534 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.412ms (us precision)
+2025-08-17 06:57:19,534 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 101.416ms (us precision)
+2025-08-17 06:57:19,534 - INFO - [WEEK4_PRODUCTION]    Run 3/5
+2025-08-17 06:57:19,536 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 2.112ms (us precision)
+2025-08-17 06:57:19,536 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,588 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,588 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 51.102ms (us precision)
+2025-08-17 06:57:19,588 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,638 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,638 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 50.088ms (us precision)
+2025-08-17 06:57:19,639 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:19,639 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (74,) + inhomogeneous part.
+2025-08-17 06:57:19,639 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.456ms (us precision)
+2025-08-17 06:57:19,639 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 102.501ms (us precision)
+2025-08-17 06:57:19,639 - INFO - [WEEK4_PRODUCTION]    Run 4/5
+2025-08-17 06:57:19,642 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 2.108ms (us precision)
+2025-08-17 06:57:19,642 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,692 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,692 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 50.277ms (us precision)
+2025-08-17 06:57:19,692 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,742 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,742 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 49.642ms (us precision)
+2025-08-17 06:57:19,742 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:19,743 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (74,) + inhomogeneous part.
+2025-08-17 06:57:19,743 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.532ms (us precision)
+2025-08-17 06:57:19,743 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 101.305ms (us precision)
+2025-08-17 06:57:19,743 - INFO - [WEEK4_PRODUCTION]    Run 5/5
+2025-08-17 06:57:19,746 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 2.118ms (us precision)
+2025-08-17 06:57:19,746 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,796 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,797 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 50.421ms (us precision)
+2025-08-17 06:57:19,797 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,847 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 74 cores, bonds [66, 63, 61, 59, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 1]
+2025-08-17 06:57:19,848 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 50.553ms (us precision)
+2025-08-17 06:57:19,848 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:19,848 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (74,) + inhomogeneous part.
+2025-08-17 06:57:19,848 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.409ms (us precision)
+2025-08-17 06:57:19,849 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 102.276ms (us precision)
+2025-08-17 06:57:19,849 - INFO - [WEEK4_PRODUCTION]    Production Results: 0.02x speedup, 0.1419 accuracy
+2025-08-17 06:57:19,849 - INFO - [WEEK4_PRODUCTION]    Memory efficiency: 100.0% reduction
+2025-08-17 06:57:19,849 - INFO - [WEEK4_PRODUCTION] 
+Testing portfolio size: 100 assets
+2025-08-17 06:57:19,849 - INFO - [WEEK4_PRODUCTION] Production benchmarking 100-asset portfolio
+2025-08-17 06:57:19,849 - INFO - [WEEK4_PRODUCTION] Generating S&P 500 portfolio: 100 assets
+2025-08-17 06:57:19,850 - INFO - [WEEK4_PRODUCTION]    Allocation: 80 stocks, 12 international, 8 bonds
+2025-08-17 06:57:19,850 - INFO - [WEEK4_PRODUCTION] S&P 500 portfolio generated: 100 assets
+2025-08-17 06:57:19,850 - INFO - [WEEK4_PRODUCTION]    Sector breakdown: 13 sectors
+2025-08-17 06:57:19,850 - INFO - [WEEK4_PRODUCTION]    Asset types: {'Stock', 'ETF', 'Bond ETF'}
+2025-08-17 06:57:19,850 - INFO - [WEEK4_PRODUCTION]    Geographic coverage: {np.str_('Emerging Markets'), np.str_('Asia-Pacific'), np.str_('Global'), np.str_('Europe'), 'US'}
+2025-08-17 06:57:19,851 - INFO - [WEEK4_PRODUCTION] Generating realistic returns: 100 assets, 504 days
+2025-08-17 06:57:19,854 - INFO - [WEEK4_PRODUCTION] Realistic returns generated: (504, 100)
+2025-08-17 06:57:19,856 - INFO - [WEEK4_PRODUCTION]    Return stats: mean=0.000681, std=0.009294
+2025-08-17 06:57:19,870 - INFO - [WEEK4_PRODUCTION]    Correlation range: 0.711 to 1.000
+2025-08-17 06:57:19,872 - INFO - [WEEK4_PRODUCTION]    Run 1/5
+2025-08-17 06:57:19,877 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 5.132ms (us precision)
+2025-08-17 06:57:19,877 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:19,946 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:19,947 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 69.433ms (us precision)
+2025-08-17 06:57:19,947 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,015 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:20,015 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 68.107ms (us precision)
+2025-08-17 06:57:20,015 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:20,015 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (99,) + inhomogeneous part.
+2025-08-17 06:57:20,016 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.458ms (us precision)
+2025-08-17 06:57:20,016 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 138.861ms (us precision)
+2025-08-17 06:57:20,016 - INFO - [WEEK4_PRODUCTION]    Run 2/5
+2025-08-17 06:57:20,021 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 4.309ms (us precision)
+2025-08-17 06:57:20,021 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,089 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:20,090 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 68.950ms (us precision)
+2025-08-17 06:57:20,090 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,158 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:20,158 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 68.732ms (us precision)
+2025-08-17 06:57:20,159 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:20,159 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (99,) + inhomogeneous part.
+2025-08-17 06:57:20,159 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.442ms (us precision)
+2025-08-17 06:57:20,159 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 139.013ms (us precision)
+2025-08-17 06:57:20,160 - INFO - [WEEK4_PRODUCTION]    Run 3/5
+2025-08-17 06:57:20,164 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 4.558ms (us precision)
+2025-08-17 06:57:20,165 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,233 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:20,234 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 68.799ms (us precision)
+2025-08-17 06:57:20,234 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,302 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:20,303 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 69.231ms (us precision)
+2025-08-17 06:57:20,303 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:20,303 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (99,) + inhomogeneous part.
+2025-08-17 06:57:20,304 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.427ms (us precision)
+2025-08-17 06:57:20,304 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 139.397ms (us precision)
+2025-08-17 06:57:20,304 - INFO - [WEEK4_PRODUCTION]    Run 4/5
+2025-08-17 06:57:20,310 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 4.779ms (us precision)
+2025-08-17 06:57:20,310 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,377 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:20,378 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 68.491ms (us precision)
+2025-08-17 06:57:20,378 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,446 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:20,447 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 68.761ms (us precision)
+2025-08-17 06:57:20,447 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:20,447 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (99,) + inhomogeneous part.
+2025-08-17 06:57:20,447 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.422ms (us precision)
+2025-08-17 06:57:20,448 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 138.542ms (us precision)
+2025-08-17 06:57:20,448 - INFO - [WEEK4_PRODUCTION]    Run 5/5
+2025-08-17 06:57:20,453 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 4.296ms (us precision)
+2025-08-17 06:57:20,453 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,520 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:20,520 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 67.651ms (us precision)
+2025-08-17 06:57:20,521 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,590 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 99 cores, bonds [84, 78, 74, 71, 68, 66, 64, 62, 60, 58, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 1]
+2025-08-17 06:57:20,590 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 69.001ms (us precision)
+2025-08-17 06:57:20,591 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:20,591 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (99,) + inhomogeneous part.
+2025-08-17 06:57:20,591 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.465ms (us precision)
+2025-08-17 06:57:20,591 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 138.069ms (us precision)
+2025-08-17 06:57:20,592 - INFO - [WEEK4_PRODUCTION]    Production Results: 0.03x speedup, 0.0834 accuracy
+2025-08-17 06:57:20,592 - INFO - [WEEK4_PRODUCTION]    Memory efficiency: 100.0% reduction
+2025-08-17 06:57:20,592 - INFO - [WEEK4_PRODUCTION] 
+Testing portfolio size: 125 assets
+2025-08-17 06:57:20,592 - INFO - [WEEK4_PRODUCTION] Production benchmarking 125-asset portfolio
+2025-08-17 06:57:20,592 - INFO - [WEEK4_PRODUCTION] Generating S&P 500 portfolio: 125 assets
+2025-08-17 06:57:20,592 - INFO - [WEEK4_PRODUCTION]    Allocation: 100 stocks, 15 international, 10 bonds
+2025-08-17 06:57:20,593 - INFO - [WEEK4_PRODUCTION] S&P 500 portfolio generated: 124 assets
+2025-08-17 06:57:20,593 - INFO - [WEEK4_PRODUCTION]    Sector breakdown: 13 sectors
+2025-08-17 06:57:20,593 - INFO - [WEEK4_PRODUCTION]    Asset types: {'Stock', 'ETF', 'Bond ETF'}
+2025-08-17 06:57:20,593 - INFO - [WEEK4_PRODUCTION]    Geographic coverage: {np.str_('Emerging Markets'), np.str_('Asia-Pacific'), np.str_('Global'), np.str_('Europe'), 'US'}
+2025-08-17 06:57:20,594 - INFO - [WEEK4_PRODUCTION] Generating realistic returns: 124 assets, 504 days
+2025-08-17 06:57:20,598 - INFO - [WEEK4_PRODUCTION] Realistic returns generated: (504, 124)
+2025-08-17 06:57:20,600 - INFO - [WEEK4_PRODUCTION]    Return stats: mean=0.000682, std=0.009296
+2025-08-17 06:57:20,621 - INFO - [WEEK4_PRODUCTION]    Correlation range: 0.706 to 1.000
+2025-08-17 06:57:20,622 - INFO - [WEEK4_PRODUCTION]    Run 1/5
+2025-08-17 06:57:20,628 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 5.499ms (us precision)
+2025-08-17 06:57:20,628 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,723 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:20,723 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 95.539ms (us precision)
+2025-08-17 06:57:20,724 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,818 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:20,818 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 95.000ms (us precision)
+2025-08-17 06:57:20,819 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:20,819 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (123,) + inhomogeneous part.
+2025-08-17 06:57:20,819 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.387ms (us precision)
+2025-08-17 06:57:20,819 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 191.783ms (us precision)
+2025-08-17 06:57:20,820 - INFO - [WEEK4_PRODUCTION]    Run 2/5
+2025-08-17 06:57:20,826 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 5.744ms (us precision)
+2025-08-17 06:57:20,826 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:20,922 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:20,922 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 96.239ms (us precision)
+2025-08-17 06:57:20,922 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:21,017 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:21,018 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 95.674ms (us precision)
+2025-08-17 06:57:21,018 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:21,018 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (123,) + inhomogeneous part.
+2025-08-17 06:57:21,018 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.382ms (us precision)
+2025-08-17 06:57:21,019 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 193.090ms (us precision)
+2025-08-17 06:57:21,019 - INFO - [WEEK4_PRODUCTION]    Run 3/5
+2025-08-17 06:57:21,026 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 6.714ms (us precision)
+2025-08-17 06:57:21,026 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:21,122 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:21,122 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 95.550ms (us precision)
+2025-08-17 06:57:21,122 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:21,217 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:21,217 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 95.586ms (us precision)
+2025-08-17 06:57:21,217 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:21,218 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (123,) + inhomogeneous part.
+2025-08-17 06:57:21,218 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.429ms (us precision)
+2025-08-17 06:57:21,218 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 192.362ms (us precision)
+2025-08-17 06:57:21,218 - INFO - [WEEK4_PRODUCTION]    Run 4/5
+2025-08-17 06:57:21,225 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 6.508ms (us precision)
+2025-08-17 06:57:21,225 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:21,322 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:21,322 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 96.727ms (us precision)
+2025-08-17 06:57:21,323 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:21,426 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:21,427 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 104.604ms (us precision)
+2025-08-17 06:57:21,427 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:21,427 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (123,) + inhomogeneous part.
+2025-08-17 06:57:21,427 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.428ms (us precision)
+2025-08-17 06:57:21,428 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 202.711ms (us precision)
+2025-08-17 06:57:21,428 - INFO - [WEEK4_PRODUCTION]    Run 5/5
+2025-08-17 06:57:21,434 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 5.726ms (us precision)
+2025-08-17 06:57:21,434 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:21,530 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:21,531 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 96.120ms (us precision)
+2025-08-17 06:57:21,531 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:21,628 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 123 cores, bonds [100, 92, 86, 81, 77, 73, 70, 67, 65, 63, 61, 59, 57, 55, 53, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 1]
+2025-08-17 06:57:21,628 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 97.141ms (us precision)
+2025-08-17 06:57:21,629 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:21,629 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (123,) + inhomogeneous part.
+2025-08-17 06:57:21,629 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.481ms (us precision)
+2025-08-17 06:57:21,630 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 194.722ms (us precision)
+2025-08-17 06:57:21,630 - INFO - [WEEK4_PRODUCTION]    Production Results: 0.03x speedup, 0.0723 accuracy
+2025-08-17 06:57:21,630 - INFO - [WEEK4_PRODUCTION]    Memory efficiency: 100.0% reduction
+2025-08-17 06:57:21,630 - INFO - [WEEK4_PRODUCTION] 
+Testing portfolio size: 150 assets
+2025-08-17 06:57:21,631 - INFO - [WEEK4_PRODUCTION] Production benchmarking 150-asset portfolio
+2025-08-17 06:57:21,631 - INFO - [WEEK4_PRODUCTION] Generating S&P 500 portfolio: 150 assets
+2025-08-17 06:57:21,631 - INFO - [WEEK4_PRODUCTION]    Allocation: 120 stocks, 18 international, 12 bonds
+2025-08-17 06:57:21,631 - INFO - [WEEK4_PRODUCTION] S&P 500 portfolio generated: 146 assets
+2025-08-17 06:57:21,631 - INFO - [WEEK4_PRODUCTION]    Sector breakdown: 13 sectors
+2025-08-17 06:57:21,632 - INFO - [WEEK4_PRODUCTION]    Asset types: {'Stock', 'ETF', 'Bond ETF'}
+2025-08-17 06:57:21,632 - INFO - [WEEK4_PRODUCTION]    Geographic coverage: {np.str_('Emerging Markets'), np.str_('Asia-Pacific'), np.str_('Global'), np.str_('Europe'), 'US'}
+2025-08-17 06:57:21,632 - INFO - [WEEK4_PRODUCTION] Generating realistic returns: 146 assets, 504 days
+2025-08-17 06:57:21,637 - INFO - [WEEK4_PRODUCTION] Realistic returns generated: (504, 146)
+2025-08-17 06:57:21,639 - INFO - [WEEK4_PRODUCTION]    Return stats: mean=0.000686, std=0.009308
+2025-08-17 06:57:21,669 - INFO - [WEEK4_PRODUCTION]    Correlation range: 0.701 to 1.000
+2025-08-17 06:57:21,670 - INFO - [WEEK4_PRODUCTION]    Run 1/5
+2025-08-17 06:57:21,676 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 6.902ms (us precision)
+2025-08-17 06:57:21,676 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:21,790 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:21,791 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 113.882ms (us precision)
+2025-08-17 06:57:21,791 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:21,904 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:21,904 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 113.036ms (us precision)
+2025-08-17 06:57:21,905 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:21,905 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (145,) + inhomogeneous part.
+2025-08-17 06:57:21,905 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.409ms (us precision)
+2025-08-17 06:57:21,906 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 228.188ms (us precision)
+2025-08-17 06:57:21,906 - INFO - [WEEK4_PRODUCTION]    Run 2/5
+2025-08-17 06:57:21,912 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 7.090ms (us precision)
+2025-08-17 06:57:21,913 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:22,026 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:22,026 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 113.163ms (us precision)
+2025-08-17 06:57:22,026 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:22,139 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:22,140 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 113.301ms (us precision)
+2025-08-17 06:57:22,140 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:22,140 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (145,) + inhomogeneous part.
+2025-08-17 06:57:22,140 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.397ms (us precision)
+2025-08-17 06:57:22,140 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 227.707ms (us precision)
+2025-08-17 06:57:22,140 - INFO - [WEEK4_PRODUCTION]    Run 3/5
+2025-08-17 06:57:22,148 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 7.026ms (us precision)
+2025-08-17 06:57:22,148 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:22,260 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:22,260 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 111.809ms (us precision)
+2025-08-17 06:57:22,260 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:22,372 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:22,373 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 112.407ms (us precision)
+2025-08-17 06:57:22,373 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:22,373 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (145,) + inhomogeneous part.
+2025-08-17 06:57:22,373 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.459ms (us precision)
+2025-08-17 06:57:22,373 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 225.632ms (us precision)
+2025-08-17 06:57:22,374 - INFO - [WEEK4_PRODUCTION]    Run 4/5
+2025-08-17 06:57:22,381 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 7.181ms (us precision)
+2025-08-17 06:57:22,381 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:22,495 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:22,496 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 114.358ms (us precision)
+2025-08-17 06:57:22,496 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:22,609 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:22,610 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 114.088ms (us precision)
+2025-08-17 06:57:22,610 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:22,610 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (145,) + inhomogeneous part.
+2025-08-17 06:57:22,611 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.430ms (us precision)
+2025-08-17 06:57:22,611 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 229.839ms (us precision)
+2025-08-17 06:57:22,611 - INFO - [WEEK4_PRODUCTION]    Run 5/5
+2025-08-17 06:57:22,620 - INFO - [WEEK4_PRODUCTION] [PERF] _classical_portfolio_optimization execution: 8.276ms (us precision)
+2025-08-17 06:57:22,620 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:22,733 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:22,733 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 112.515ms (us precision)
+2025-08-17 06:57:22,733 - INFO - [WEEK4_PRODUCTION] Starting production tensor train decomposition
+2025-08-17 06:57:22,847 - INFO - [WEEK4_PRODUCTION] Production tensor train complete: 145 cores, bonds [100, 93, 87, 82, 78, 74, 71, 68, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 1]
+2025-08-17 06:57:22,848 - INFO - [WEEK4_PRODUCTION] [PERF] production_tensor_train_decomposition execution: 114.978ms (us precision)
+2025-08-17 06:57:22,848 - INFO - [WEEK4_PRODUCTION] Production portfolio optimization starting
+2025-08-17 06:57:22,848 - ERROR - [WEEK4_PRODUCTION] Portfolio optimization failed: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (145,) + inhomogeneous part.
+2025-08-17 06:57:22,849 - INFO - [WEEK4_PRODUCTION] [PERF] production_portfolio_optimization execution: 0.395ms (us precision)
+2025-08-17 06:57:22,849 - INFO - [WEEK4_PRODUCTION] [PERF] _production_mps_optimization execution: 228.806ms (us precision)
+2025-08-17 06:57:22,849 - INFO - [WEEK4_PRODUCTION]    Production Results: 0.03x speedup, 0.0794 accuracy
+2025-08-17 06:57:22,849 - INFO - [WEEK4_PRODUCTION]    Memory efficiency: 100.0% reduction
+2025-08-17 06:57:22,850 - INFO - [WEEK4_PRODUCTION] 
+🎯 Week 4 Breakthrough Validation:
+2025-08-17 06:57:22,850 - INFO - [WEEK4_PRODUCTION]    speedup_breakthrough: ⚠️ IN PROGRESS
+2025-08-17 06:57:22,850 - INFO - [WEEK4_PRODUCTION]    large_portfolio_validated: ✅ ACHIEVED
+2025-08-17 06:57:22,850 - INFO - [WEEK4_PRODUCTION]    sp500_subset_operational: ✅ ACHIEVED
+2025-08-17 06:57:22,850 - INFO - [WEEK4_PRODUCTION]    accuracy_maintained: ⚠️ IN PROGRESS
+2025-08-17 06:57:22,851 - INFO - [WEEK4_PRODUCTION]    memory_efficiency: ✅ ACHIEVED
+2025-08-17 06:57:22,851 - INFO - [WEEK4_PRODUCTION]    gpu_acceleration_active: ⚠️ IN PROGRESS
+2025-08-17 06:57:22,851 - INFO - [WEEK4_PRODUCTION]    production_ready: ✅ ACHIEVED
+2025-08-17 06:57:22,851 - INFO - [WEEK4_PRODUCTION]    phase3_prepared: ⚠️ IN PROGRESS
+2025-08-17 06:57:22,851 - INFO - [WEEK4_PRODUCTION] 
+🏆 Week 4 Production Breakthrough: ⚠️ OPTIMIZATION CONTINUES
+2025-08-17 06:57:22,851 - INFO - [WEEK4_PRODUCTION] 
+Week 4 Production Benchmark Complete:
+2025-08-17 06:57:22,852 - INFO - [WEEK4_PRODUCTION]    Best speedup achieved: 0.03x at 100 assets
+2025-08-17 06:57:22,852 - INFO - [WEEK4_PRODUCTION]    Production target >=10x: IN PROGRESS
+2025-08-17 06:57:22,852 - INFO - [WEEK4_PRODUCTION]    Largest portfolio tested: 150 assets
+2025-08-17 06:57:22,852 - INFO - [WEEK4_PRODUCTION]    Phase 3 quantum ready: OPTIMIZATION
+2025-08-17 06:57:22,853 - ERROR - [WEEK4_PRODUCTION] Week 4 production benchmark failed: Object of type bool is not JSON serializable
