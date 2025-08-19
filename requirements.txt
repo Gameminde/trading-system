@@ -1,0 +1,77 @@
+# ===== QUANTUM TRADING SYSTEM DEPENDENCIES =====
+
+# Core Data & Analytics
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine Learning & AI
+torch>=2.0.0
+transformers>=4.30.0
+scikit-learn>=1.3.0
+
+# Financial Data APIs
+yfinance>=0.2.0
+python-binance>=1.0.19
+binance>=0.3.0
+alpha-vantage>=2.3.1
+
+# Tensor Networks & Quantum Computing
+tensorly>=0.8.0
+jax>=0.4.0
+jaxlib>=0.4.0
+
+# Web Dashboard & Visualization
+dash>=2.10.0
+plotly>=5.15.0
+dash-bootstrap-components>=1.4.0
+
+# Web & Network
+requests>=2.31.0
+aiohttp>=3.8.0
+websockets>=11.0.0
+
+# Database & Storage
+sqlalchemy>=2.0.0
+redis>=4.5.0
+
+# Cryptocurrency & DeFi
+web3>=6.5.0
+ccxt>=4.0.0
+
+# Natural Language Processing
+nltk>=3.8.0
+textblob>=0.17.0
+
+# Technical Analysis
+ta-lib>=0.4.0
+TA-Lib>=0.4.25
+
+# Utility Libraries
+python-dateutil>=2.8.0
+pytz>=2023.3
+tqdm>=4.65.0
+colorama>=0.4.6
+
+# Configuration & Environment
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# Development & Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: High-Performance Computing
+# numba>=0.57.0
+# cupy>=12.0.0  # GPU acceleration (requires CUDA)
+
+# Optional: Advanced Quantum Computing
+# qiskit>=0.43.0
+# cirq>=1.2.0
+# pennylane>=0.31.0
+
+# Optional: Professional Trading APIs
+# interactive-brokers-api>=9.81.0
+# alpaca-trade-api>=3.0.0

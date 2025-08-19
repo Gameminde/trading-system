@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "alpaca-trading": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["C:\\Users\\PC\\Desktop\\Agent-trader\\trading-agent-mcp\\alpaca-mcp-server\\alpaca_mcp_server.py"],
+      "env": {
+        "ALPACA_API_KEY": "PKQ0269201ABUB5M4U1U",
+        "ALPACA_SECRET_KEY": "I3DfPytzW4q1nQhdW0Ut8EyFX7norzy8rXV7T6xp",
+        "ALPACA_PAPER_TRADE": "True",
+        "ALPACA_BASE_URL": "https://paper-api.alpaca.markets/v2"
+      }
+    },
+    "crypto-price": {
+      "type": "stdio", 
+      "command": "node",
+      "args": ["C:\\Users\\PC\\Desktop\\Agent-trader\\trading-agent-mcp\\mcp-crypto-price\\dist\\index.js"]
+    },
+    "github-mcp": {
+      "type": "stdio",
+      "command": "C:\\Users\\PC\\Desktop\\Agent-trader\\trading-agent-mcp\\github-mcp-server\\github-mcp-server.exe",
+      "args": [],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      }
+    },
+    "filesystem": {
+      "type": "stdio",
+      "command": "node", 
+      "args": ["C:\\Users\\PC\\Desktop\\Agent-trader\\trading-agent-mcp\\servers\\src\\filesystem\\dist\\index.js"],
+      "env": {
+        "ALLOWED_DIRECTORIES": "C:\\Users\\PC\\Desktop\\Agent-trader"
+      }
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["C:\\Users\\PC\\Desktop\\Agent-trader\\trading-agent-mcp\\playwright-mcp\\lib\\browserServer.js"]
+    }
+  }
+}

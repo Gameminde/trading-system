@@ -1,0 +1,48 @@
+# ========================================
+# MCP SERVERS ENVIRONMENT VARIABLES
+# ========================================
+# Copy this file to .env and fill in your actual credentials
+
+# ========================================
+# ALPACA TRADING API
+# ========================================
+# Get your API keys from: https://alpaca.markets/
+ALPACA_API_KEY=your_alpaca_api_key_here
+ALPACA_SECRET_KEY=your_alpaca_secret_key_here
+# Set to True for paper trading (safe testing), False for live trading
+ALPACA_PAPER_TRADE=True
+
+# Optional Alpaca overrides (leave as None for defaults)
+TRADE_API_URL=None
+TRADE_API_WSS=None  
+DATA_API_URL=None
+STREAM_DATA_WSS=None
+
+# ========================================
+# GITHUB MCP SERVER (requires Go to build)
+# ========================================
+# Create token at: https://github.com/settings/tokens
+GITHUB_TOKEN=ghp_your_github_token_here
+
+# ========================================
+# ADDITIONAL API KEYS (for future servers)
+# ========================================
+# Bright Data (web scraping)
+BRIGHTDATA_TOKEN=your_brightdata_token_here
+
+# Armor Wallet (crypto)
+ARMOR_WALLET_API=your_armor_api_key_here
+
+# ========================================
+# FILESYSTEM SERVER SECURITY
+# ========================================
+# Limit filesystem access to specific directories
+ALLOWED_DIRECTORIES=C:\Users\PC\Desktop\Agent-trader
+
+# ========================================
+# INSTALLATION NOTES
+# ========================================
+# 1. Install Go to use GitHub MCP Server: https://golang.org/dl/
+# 2. Build GitHub server: cd github-mcp-server && go build
+# 3. Set environment variables in your system or .env file
+# 4. Restart Cursor after configuration changes

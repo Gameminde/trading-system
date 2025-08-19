@@ -1,0 +1,19 @@
+{
+  "symbol": "TSLA",
+  "overall_sentiment": 0.015524102210260545,
+  "confidence": 0.656738836762537,
+  "bullish_probability": 0.015524102210260545,
+  "bearish_probability": 0,
+  "neutral_probability": 0.9844758977897394,
+  "twitter_sentiment": 0.06744219264755985,
+  "reddit_sentiment": 0.0,
+  "news_sentiment": 0.0,
+  "sec_sentiment": 0.0,
+  "signal_strength": 0.3911478048383104,
+  "market_correlation": 0.803,
+  "prediction_accuracy": 0.87,
+  "trading_signal": "HOLD",
+  "sentiment_momentum": -0.1388319608080924,
+  "volatility_indicator": 0.015524102210260545,
+  "cross_market_correlation": 0.803
+}

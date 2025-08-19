@@ -1,0 +1,367 @@
+{
+  "session_timestamp": "2025-08-17T20:01:52.342279",
+  "config": {
+    "initial_capital": 100.0,
+    "max_positions": 5,
+    "position_size_base": 0.12,
+    "confidence_threshold": 0.2,
+    "stop_loss": 0.04,
+    "take_profit": 0.08,
+    "analysis_frequency": 20,
+    "memory_file": "logs/super_agent_memory.json",
+    "learning_rate": 0.1,
+    "use_llm_sentiment": true,
+    "use_mps_optimization": true,
+    "use_quantum_inspiration": true,
+    "use_defi_analysis": true,
+    "use_advanced_ml": true,
+    "use_cross_correlation": true
+  },
+  "trades": [
+    {
+      "timestamp": "2025-08-17T20:00:16.158752",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4469.37,
+      "quantity": 0.003575174192648965,
+      "value": 15.978776281399504,
+      "fees": 0.015978776281399504,
+      "confidence": 0.33156469011662537,
+      "analysis": {
+        "symbol": "ETH",
+        "signal": "BUY",
+        "confidence": 0.33156469011662537,
+        "composite_score": 0.33156469011662537,
+        "components": {
+          "sentiment": {
+            "score": -0.1578,
+            "weight": 0.5
+          },
+          "allocation": {
+            "score": 1.0,
+            "weight": 0.3
+          },
+          "quantum": {
+            "score": 0.5523234505831268,
+            "weight": 0.2
+          }
+        },
+        "market_data": {
+          "symbol": "ETH",
+          "price": 4469.37,
+          "volume": 394072,
+          "change_24h": 1.422,
+          "high_24h": 4576.0,
+          "low_24h": 4393.98,
+          "source": "Binance",
+          "timestamp": "2025-08-17 20:00:07.838567"
+        },
+        "reasoning": "Fusion intelligente: Sentiment(-0.16) + Allocation(1.00) + Quantum(0.55)",
+        "allocation_suggested": 40.0
+      },
+      "reasoning": "Fusion intelligente: Sentiment(-0.16) + Allocation(1.00) + Quantum(0.55)"
+    },
+    {
+      "timestamp": "2025-08-17T20:00:36.981960",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4471.22,
+      "quantity": 0.0030007384508789533,
+      "value": 13.416961776338994,
+      "fees": 0.013416961776338995,
+      "confidence": 0.3309646901166253,
+      "analysis": {
+        "symbol": "ETH",
+        "signal": "BUY",
+        "confidence": 0.3309646901166253,
+        "composite_score": 0.3309646901166253,
+        "components": {
+          "sentiment": {
+            "score": -0.159,
+            "weight": 0.5
+          },
+          "allocation": {
+            "score": 1.0,
+            "weight": 0.3
+          },
+          "quantum": {
+            "score": 0.5523234505831268,
+            "weight": 0.2
+          }
+        },
+        "market_data": {
+          "symbol": "ETH",
+          "price": 4471.22,
+          "volume": 394289,
+          "change_24h": 1.41,
+          "high_24h": 4576.0,
+          "low_24h": 4393.98,
+          "source": "Binance",
+          "timestamp": "2025-08-17 20:00:32.645082"
+        },
+        "reasoning": "Fusion intelligente: Sentiment(-0.16) + Allocation(1.00) + Quantum(0.55)",
+        "allocation_suggested": 33.60209797692764
+      },
+      "reasoning": "Fusion intelligente: Sentiment(-0.16) + Allocation(1.00) + Quantum(0.55)"
+    },
+    {
+      "timestamp": "2025-08-17T20:00:58.128504",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4473.15,
+      "quantity": 0.0025235034954773712,
+      "value": 11.288009660794602,
+      "fees": 0.011288009660794603,
+      "confidence": 0.33286469011662534,
+      "analysis": {
+        "symbol": "ETH",
+        "signal": "BUY",
+        "confidence": 0.33286469011662534,
+        "composite_score": 0.33286469011662534,
+        "components": {
+          "sentiment": {
+            "score": -0.1552,
+            "weight": 0.5
+          },
+          "allocation": {
+            "score": 1.0,
+            "weight": 0.3
+          },
+          "quantum": {
+            "score": 0.5523234505831268,
+            "weight": 0.2
+          }
+        },
+        "market_data": {
+          "symbol": "ETH",
+          "price": 4473.15,
+          "volume": 394341,
+          "change_24h": 1.448,
+          "high_24h": 4576.0,
+          "low_24h": 4393.98,
+          "source": "Binance",
+          "timestamp": "2025-08-17 20:00:53.525502"
+        },
+        "reasoning": "Fusion intelligente: Sentiment(-0.16) + Allocation(1.00) + Quantum(0.55)",
+        "allocation_suggested": 28.229946481681505
+      },
+      "reasoning": "Fusion intelligente: Sentiment(-0.16) + Allocation(1.00) + Quantum(0.55)"
+    },
+    {
+      "timestamp": "2025-08-17T20:01:19.196460",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4476.58,
+      "quantity": 0.0021129211445876034,
+      "value": 9.458660537437973,
+      "fees": 0.009458660537437973,
+      "confidence": 0.32975816335594144,
+      "analysis": {
+        "symbol": "ETH",
+        "signal": "BUY",
+        "confidence": 0.32975816335594144,
+        "composite_score": 0.32975816335594144,
+        "components": {
+          "sentiment": {
+            "score": -0.15059999999999998,
+            "weight": 0.5
+          },
+          "allocation": {
+            "score": 1.0,
+            "weight": 0.3
+          },
+          "quantum": {
+            "score": 0.5252908167797071,
+            "weight": 0.2
+          }
+        },
+        "market_data": {
+          "symbol": "ETH",
+          "price": 4476.58,
+          "volume": 395456,
+          "change_24h": 1.494,
+          "high_24h": 4576.0,
+          "low_24h": 4393.98,
+          "source": "Binance",
+          "timestamp": "2025-08-17 20:01:14.749862"
+        },
+        "reasoning": "Fusion intelligente: Sentiment(-0.15) + Allocation(1.00) + Quantum(0.53)",
+        "allocation_suggested": 23.710227413499346
+      },
+      "reasoning": "Fusion intelligente: Sentiment(-0.15) + Allocation(1.00) + Quantum(0.53)"
+    },
+    {
+      "timestamp": "2025-08-17T20:01:40.139253",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4474.94,
+      "quantity": 0.0017728014435762418,
+      "value": 7.933180091917067,
+      "fees": 0.007933180091917067,
+      "confidence": 0.32730816335594143,
+      "analysis": {
+        "symbol": "ETH",
+        "signal": "BUY",
+        "confidence": 0.32730816335594143,
+        "composite_score": 0.32730816335594143,
+        "components": {
+          "sentiment": {
+            "score": -0.15549999999999997,
+            "weight": 0.5
+          },
+          "allocation": {
+            "score": 1.0,
+            "weight": 0.3
+          },
+          "quantum": {
+            "score": 0.5252908167797071,
+            "weight": 0.2
+          }
+        },
+        "market_data": {
+          "symbol": "ETH",
+          "price": 4474.94,
+          "volume": 395591,
+          "change_24h": 1.445,
+          "high_24h": 4576.0,
+          "low_24h": 4393.98,
+          "source": "Binance",
+          "timestamp": "2025-08-17 20:01:35.670693"
+        },
+        "reasoning": "Fusion intelligente: Sentiment(-0.16) + Allocation(1.00) + Quantum(0.53)",
+        "allocation_suggested": 19.92297973430918
+      },
+      "reasoning": "Fusion intelligente: Sentiment(-0.16) + Allocation(1.00) + Quantum(0.53)"
+    }
+  ],
+  "decision_history": [
+    {
+      "timestamp": "2025-08-17T20:00:16.158752",
+      "market_snapshot": {
+        "BTC": 117558.7,
+        "ETH": 4469.37
+      },
+      "decisions": {
+        "BTC": "HOLD",
+        "ETH": "BUY"
+      },
+      "confidences": {
+        "BTC": 0.2,
+        "ETH": 0.33156469011662537
+      }
+    },
+    {
+      "timestamp": "2025-08-17T20:00:36.252486",
+      "market_snapshot": {
+        "BTC": 117575.88,
+        "ETH": 4471.22
+      },
+      "decisions": {
+        "BTC": "HOLD",
+        "ETH": "BUY"
+      },
+      "confidences": {
+        "BTC": 0.2,
+        "ETH": 0.3309646901166253
+      }
+    },
+    {
+      "timestamp": "2025-08-17T20:00:57.371485",
+      "market_snapshot": {
+        "BTC": 117583.55,
+        "ETH": 4473.15
+      },
+      "decisions": {
+        "BTC": "HOLD",
+        "ETH": "BUY"
+      },
+      "confidences": {
+        "BTC": 0.2,
+        "ETH": 0.33286469011662534
+      }
+    },
+    {
+      "timestamp": "2025-08-17T20:01:18.453545",
+      "market_snapshot": {
+        "BTC": 117595.5,
+        "ETH": 4476.58
+      },
+      "decisions": {
+        "BTC": "HOLD",
+        "ETH": "BUY"
+      },
+      "confidences": {
+        "BTC": 0.2,
+        "ETH": 0.32975816335594144
+      }
+    },
+    {
+      "timestamp": "2025-08-17T20:01:39.379859",
+      "market_snapshot": {
+        "BTC": 117606.42,
+        "ETH": 4474.94
+      },
+      "decisions": {
+        "BTC": "HOLD",
+        "ETH": "BUY"
+      },
+      "confidences": {
+        "BTC": 0.2,
+        "ETH": 0.32730816335594143
+      }
+    }
+  ],
+  "success_patterns": {},
+  "learning_stats": {
+    "total_decisions": 10,
+    "successful_decisions": 0
+  },
+  "final_cash": 41.86633606376397,
+  "final_positions": {
+    "ETH": {
+      "quantity": 0.0017728014435762418,
+      "entry_price": 4474.94,
+      "entry_time": "2025-08-17T20:01:40.139253",
+      "analysis": {
+        "symbol": "ETH",
+        "signal": "BUY",
+        "confidence": 0.32730816335594143,
+        "composite_score": 0.32730816335594143,
+        "components": {
+          "sentiment": {
+            "score": -0.15549999999999997,
+            "weight": 0.5
+          },
+          "allocation": {
+            "score": 1.0,
+            "weight": 0.3
+          },
+          "quantum": {
+            "score": 0.5252908167797071,
+            "weight": 0.2
+          }
+        },
+        "market_data": {
+          "symbol": "ETH",
+          "price": 4474.94,
+          "volume": 395591,
+          "change_24h": 1.445,
+          "high_24h": 4576.0,
+          "low_24h": 4393.98,
+          "source": "Binance",
+          "timestamp": "2025-08-17 20:01:35.670693"
+        },
+        "reasoning": "Fusion intelligente: Sentiment(-0.16) + Allocation(1.00) + Quantum(0.53)",
+        "allocation_suggested": 19.92297973430918
+      },
+      "stop_loss": 4295.9424,
+      "take_profit": 4832.9352
+    }
+  },
+  "portfolio_value": 49.79355954283062,
+  "intelligence_modules": {
+    "llm_sentiment": true,
+    "mps_optimization": true,
+    "quantum_inspired": true
+  }
+}

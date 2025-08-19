@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Trading data & models (LARGE FILES - GitHub 100MB limit)
+*.csv
+*.pkl
+*.h5
+*.model
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+data/historical/
+data/live/
+data/raw/
+models/trained/
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+logs/*.log
+logs/trading/
+*.log
+
+# API Keys & Secrets
+.env
+config/secrets.json
+*.key
+*config.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trading specific
+backtest_results/
+live_trading_logs/
+portfolio_history/
+
+# Cache files
+*.cache/
+.cache/
+
+# Large datasets
+*.parquet
+*.feather
+*.arrow

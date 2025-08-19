@@ -1,0 +1,9 @@
+{
+  "volatility_mean_reversion_tsla": {
+    "total_signals": 1,
+    "avg_return": 0.2319121308379121,
+    "win_rate": 1.0,
+    "best_return": 0.2319121308379121,
+    "worst_return": 0.2319121308379121
+  }
+}
