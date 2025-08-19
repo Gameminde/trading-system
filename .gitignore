@@ -10,6 +10,12 @@ ENV/
 env.bak/
 venv.bak/
 
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # Trading data & models (LARGE FILES - GitHub 100MB limit)
 *.csv
 *.pkl
