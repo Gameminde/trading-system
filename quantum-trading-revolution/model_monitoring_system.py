@@ -875,3 +875,4 @@ def integrate_model_monitoring(agent, config: Dict = None) -> ModelMonitoringSys
     
     print("✅ Model Monitoring System intégré (47 métriques surveillées, 8 algorithmes de détection)")
     return monitoring_system
+

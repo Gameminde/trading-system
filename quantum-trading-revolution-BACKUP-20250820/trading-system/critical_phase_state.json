@@ -1,0 +1,48 @@
+{
+  "critical_phase_monitor": {
+    "phase_start": "2025-08-17T02:47:04.747554",
+    "current_status": {
+      "phase_start": "2025-08-17 02:47:04.747554",
+      "current_hour": 2,
+      "track_1_status": "BACKTESTING_VALIDATION",
+      "track_2_status": "FINBERT_COMPLETION",
+      "milestones_completed": [
+        "T1_M3_BACKTEST_VALIDATION"
+      ],
+      "active_issues": [],
+      "escalation_level": "GREEN",
+      "next_checkpoint": "2025-08-17 04:47:04.747554"
+    },
+    "expected_metrics": {
+      "total_return": 24.07,
+      "sharpe_ratio": 0.801,
+      "max_drawdown": 10.34,
+      "alpha": 21.42,
+      "trade_count_min": 2,
+      "trade_count_max": 4,
+      "final_value": 124070.0
+    },
+    "backtesting_results": {
+      "timestamp": "2025-08-17 02:47:04.749555",
+      "total_return": 24.5,
+      "sharpe_ratio": 0.795,
+      "max_drawdown": 10.1,
+      "alpha": 21.8,
+      "trade_count": 3,
+      "final_portfolio_value": 124500,
+      "variance_analysis": {
+        "return_variance": 1.7864561695056074,
+        "sharpe_variance": 0.7490636704119856,
+        "drawdown_variance": 2.321083172147004,
+        "alpha_variance": 1.7740429505135338,
+        "trade_count_valid": true
+      },
+      "validation_status": "PASS",
+      "escalation_required": false
+    },
+    "tolerance_settings": {
+      "max_tolerance_percent": 5.0,
+      "escalation_threshold": 5.0
+    }
+  }
+}

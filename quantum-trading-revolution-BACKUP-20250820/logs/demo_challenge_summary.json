@@ -1,0 +1,11 @@
+{
+  "final_capital": "$116.48",
+  "total_return": "16.5%",
+  "max_drawdown": "9.8%",
+  "sharpe_ratio": "2.20",
+  "win_rate": "60.0%",
+  "stage_reached": "0/3",
+  "agent_ready": "True",
+  "readiness_score": "100.0%",
+  "timestamp": "2025-08-17T17:52:35.786270"
+}

@@ -1,0 +1,946 @@
+{
+  "session_timestamp": "2025-08-17T19:25:37.177339",
+  "config": {
+    "initial_capital": 100.0,
+    "max_positions": 3,
+    "position_size": 0.15,
+    "confidence_threshold": 0.15,
+    "stop_loss": 0.03,
+    "take_profit": 0.06,
+    "trading_fee": 0.001,
+    "analysis_frequency": 15,
+    "memory_file": "logs/aggressive_trading_memory.json"
+  },
+  "trades": [
+    {
+      "timestamp": "2025-08-17T19:15:37.709877",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4532.28,
+      "quantity": 0.003309592522968572,
+      "value": 15.0,
+      "fees": 0.015,
+      "reasoning": "Hausse modérée +2.7% | Volume élevé | Signal technique",
+      "confidence": 0.36576061817934113
+    },
+    {
+      "timestamp": "2025-08-17T19:16:12.665369",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4532.04,
+      "quantity": 0.002812806153520269,
+      "value": 12.74775,
+      "fees": 0.01274775,
+      "reasoning": "Hausse modérée +2.6% | Volume élevé",
+      "confidence": 0.4661745350458846
+    },
+    {
+      "timestamp": "2025-08-17T19:16:40.930343",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4531.36,
+      "quantity": 0.0023908220352168003,
+      "value": 10.833675337499999,
+      "fees": 0.0108336753375,
+      "reasoning": "Hausse modérée +2.6% | Volume élevé",
+      "confidence": 0.5072795182428249
+    },
+    {
+      "timestamp": "2025-08-17T19:17:09.094302",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4529.47,
+      "quantity": 0.0020326879271911225,
+      "value": 9.206998985574375,
+      "fees": 0.009206998985574375,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé | Signal technique",
+      "confidence": 0.3985382187900113
+    },
+    {
+      "timestamp": "2025-08-17T19:17:37.266526",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4528.82,
+      "quantity": 0.0017277277718898924,
+      "value": 7.824568087890382,
+      "fees": 0.007824568087890383,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé | Signal technique",
+      "confidence": 0.6470051632857672
+    },
+    {
+      "timestamp": "2025-08-17T19:18:05.704892",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4527.77,
+      "quantity": 0.0014686499511886958,
+      "value": 6.649709189493642,
+      "fees": 0.006649709189493642,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé",
+      "confidence": 0.5550343359005705
+    },
+    {
+      "timestamp": "2025-08-17T19:18:34.055441",
+      "symbol": "ETH",
+      "action": "BUY",
+      "price": 4526.17,
+      "quantity": 0.0012485733754346766,
+      "value": 5.651255354691171,
+      "fees": 0.0056512553546911705,
+      "reasoning": "Hausse modérée +2.4% | Volume élevé",
+      "confidence": 0.5699246593022291
+    }
+  ],
+  "decision_log": [
+    {
+      "timestamp": "2025-08-17T19:15:34.950275",
+      "symbol": "BTC",
+      "price": 117929.99,
+      "action": "HOLD",
+      "confidence": 0.19587473685010637,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:15:37.709877",
+      "symbol": "ETH",
+      "price": 4532.28,
+      "action": "BUY",
+      "confidence": 0.36576061817934113,
+      "reasoning": "Hausse modérée +2.7% | Volume élevé | Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:15:46.714883",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.27788189103127126,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:15:48.992682",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.012463284620191084,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:15:51.299037",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.023552544369221495,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:09.929562",
+      "symbol": "BTC",
+      "price": 117914.68,
+      "action": "HOLD",
+      "confidence": 0.02572027047370895,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:12.665369",
+      "symbol": "ETH",
+      "price": 4532.04,
+      "action": "BUY",
+      "confidence": 0.4661745350458846,
+      "reasoning": "Hausse modérée +2.6% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:14.988066",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.1793799458591817,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:17.297872",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "SELL",
+      "confidence": 0.3883380328095424,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:19.609923",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.08314495680154144,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:38.174079",
+      "symbol": "BTC",
+      "price": 117914.67,
+      "action": "HOLD",
+      "confidence": 0.02842182557347006,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:40.930343",
+      "symbol": "ETH",
+      "price": 4531.36,
+      "action": "BUY",
+      "confidence": 0.5072795182428249,
+      "reasoning": "Hausse modérée +2.6% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:43.282527",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.010184944641729476,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:45.560846",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.019685839524651083,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:16:47.874136",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.07018907340214753,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:06.353289",
+      "symbol": "BTC",
+      "price": 117905.17,
+      "action": "HOLD",
+      "confidence": 0.15019554460250872,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:09.094302",
+      "symbol": "ETH",
+      "price": 4529.47,
+      "action": "BUY",
+      "confidence": 0.3985382187900113,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé | Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:11.426342",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.23290700110422202,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:13.703413",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.016474105117690208,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:15.999201",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.04315414406850504,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:34.451502",
+      "symbol": "BTC",
+      "price": 117898.96,
+      "action": "HOLD",
+      "confidence": 0.07139767978038702,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:37.266526",
+      "symbol": "ETH",
+      "price": 4528.82,
+      "action": "BUY",
+      "confidence": 0.6470051632857672,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé | Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:39.625670",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.030635119543810596,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:41.923753",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.2656802302928243,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:17:44.222403",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.22745316543670102,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:02.897843",
+      "symbol": "BTC",
+      "price": 117898.96,
+      "action": "HOLD",
+      "confidence": 0.1159623671926644,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:05.703887",
+      "symbol": "ETH",
+      "price": 4527.77,
+      "action": "BUY",
+      "confidence": 0.5550343359005705,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:08.035601",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.0611462816864532,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:10.329250",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.20423621382577495,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:12.682252",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.006321841482289425,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:31.287342",
+      "symbol": "BTC",
+      "price": 117892.01,
+      "action": "HOLD",
+      "confidence": 0.12885618461144843,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:34.054440",
+      "symbol": "ETH",
+      "price": 4526.17,
+      "action": "BUY",
+      "confidence": 0.5699246593022291,
+      "reasoning": "Hausse modérée +2.4% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:36.430212",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "SELL",
+      "confidence": 0.3199369489616857,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:38.724546",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.26968315714960955,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:41.054308",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.174195352767184,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:18:59.701965",
+      "symbol": "BTC",
+      "price": 117883.38,
+      "action": "HOLD",
+      "confidence": 0.11693401130820869,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:02.561727",
+      "symbol": "ETH",
+      "price": 4526.3,
+      "action": "BUY",
+      "confidence": 0.5284640475738167,
+      "reasoning": "Hausse modérée +2.4% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:04.909546",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.020695979786268914,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:07.191607",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "SELL",
+      "confidence": 0.3403159631384425,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:09.515977",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.24793817408708918,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:28.047026",
+      "symbol": "BTC",
+      "price": 117883.38,
+      "action": "HOLD",
+      "confidence": 0.15969420814716107,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:30.869650",
+      "symbol": "ETH",
+      "price": 4526.63,
+      "action": "BUY",
+      "confidence": 0.5466149433810119,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:33.215507",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.040011729081739444,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:35.497267",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.018149945200154338,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:37.808338",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.15368219914833525,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:56.418995",
+      "symbol": "BTC",
+      "price": 117883.39,
+      "action": "HOLD",
+      "confidence": 0.1894307813887044,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:19:59.154451",
+      "symbol": "ETH",
+      "price": 4526.58,
+      "action": "BUY",
+      "confidence": 0.4804287553228468,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:01.485251",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.04747622928193973,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:03.779911",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "SELL",
+      "confidence": 0.32086743365160475,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:06.102749",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.2089077404844235,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:25.257776",
+      "symbol": "BTC",
+      "price": 117852.94,
+      "action": "HOLD",
+      "confidence": 0.016825976155743216,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:27.985757",
+      "symbol": "ETH",
+      "price": 4523.85,
+      "action": "BUY",
+      "confidence": 0.5190133530712282,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:30.337621",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "SELL",
+      "confidence": 0.44069122781848225,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:32.621221",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "SELL",
+      "confidence": 0.35459769657068396,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:34.950566",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.004744638844974558,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:53.421885",
+      "symbol": "BTC",
+      "price": 117851.38,
+      "action": "HOLD",
+      "confidence": 0.12602818242631586,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:56.253078",
+      "symbol": "ETH",
+      "price": 4523.28,
+      "action": "BUY",
+      "confidence": 0.5041679173693179,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:20:58.582619",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.19860056095773548,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:00.965147",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.029108048702329192,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:03.340139",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.03222158137537412,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:21.817050",
+      "symbol": "BTC",
+      "price": 117834.32,
+      "action": "HOLD",
+      "confidence": 0.07371751350616529,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:24.674288",
+      "symbol": "ETH",
+      "price": 4523.7,
+      "action": "BUY",
+      "confidence": 0.4881617951928279,
+      "reasoning": "Hausse modérée +2.6% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:27.031608",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.18891755276473932,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:29.317878",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.09091254132999549,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:31.794549",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.20962224511844507,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:50.308353",
+      "symbol": "BTC",
+      "price": 117800.86,
+      "action": "HOLD",
+      "confidence": 0.1972170480355867,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:53.128948",
+      "symbol": "ETH",
+      "price": 4520.97,
+      "action": "BUY",
+      "confidence": 0.3195011817115252,
+      "reasoning": "Hausse modérée +2.6% | Volume élevé | Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:55.484356",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.15718246449132056,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:21:58.427535",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.2612927529668776,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:00.759978",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.04851970942632866,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:19.392056",
+      "symbol": "BTC",
+      "price": 117792.08,
+      "action": "HOLD",
+      "confidence": 0.1687949828856512,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:22.220789",
+      "symbol": "ETH",
+      "price": 4518.13,
+      "action": "BUY",
+      "confidence": 0.4967189989205285,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:24.539734",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.17214561778437787,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:26.841872",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.18208293047096824,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:29.159195",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.21526431170328963,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:47.647365",
+      "symbol": "BTC",
+      "price": 117800.12,
+      "action": "HOLD",
+      "confidence": 0.12217670909267131,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:50.386986",
+      "symbol": "ETH",
+      "price": 4519.81,
+      "action": "BUY",
+      "confidence": 0.4646904623366661,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:52.742702",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.031521500624266396,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:55.035854",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.05381794189455191,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:22:57.353898",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.1109127889071635,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:16.335570",
+      "symbol": "BTC",
+      "price": 117819.57,
+      "action": "HOLD",
+      "confidence": 0.11447842490861837,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:19.075367",
+      "symbol": "ETH",
+      "price": 4520.87,
+      "action": "BUY",
+      "confidence": 0.327389746492869,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé | Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:21.398670",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.14576418275849456,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:23.682397",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.033192898535606474,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:26.037600",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.1409292896495562,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:44.590482",
+      "symbol": "BTC",
+      "price": 117841.81,
+      "action": "HOLD",
+      "confidence": 0.0950618025873815,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:47.346230",
+      "symbol": "ETH",
+      "price": 4520.28,
+      "action": "BUY",
+      "confidence": 0.4207992199688173,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:49.662992",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.012107001541938889,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:51.940282",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "SELL",
+      "confidence": 0.33595354705696945,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:23:54.265307",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.23366025868593643,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:12.803484",
+      "symbol": "BTC",
+      "price": 117841.8,
+      "action": "HOLD",
+      "confidence": 0.16982135798503784,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:15.530071",
+      "symbol": "ETH",
+      "price": 4520.5,
+      "action": "BUY",
+      "confidence": 0.4979923098483492,
+      "reasoning": "Hausse modérée +2.5% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:17.883144",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.12469586054430803,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:20.181789",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "HOLD",
+      "confidence": 0.02114867503856699,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:22.486785",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.21272394016766727,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:41.038414",
+      "symbol": "BTC",
+      "price": 117822.12,
+      "action": "HOLD",
+      "confidence": 0.19984485739707392,
+      "reasoning": "Signal technique"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:43.777523",
+      "symbol": "ETH",
+      "price": 4516.21,
+      "action": "BUY",
+      "confidence": 0.4363143383964643,
+      "reasoning": "Hausse modérée +2.4% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:46.120217",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "SELL",
+      "confidence": 0.4150321625258786,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:48.405430",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "SELL",
+      "confidence": 0.44677434334476873,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:24:50.710239",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.11462489502491058,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:25:09.205377",
+      "symbol": "BTC",
+      "price": 117783.31,
+      "action": "HOLD",
+      "confidence": 0.007578771505334592,
+      "reasoning": "Signal neutre"
+    },
+    {
+      "timestamp": "2025-08-17T19:25:11.923801",
+      "symbol": "ETH",
+      "price": 4515.52,
+      "action": "BUY",
+      "confidence": 0.5623880089742215,
+      "reasoning": "Hausse modérée +2.4% | Volume élevé"
+    },
+    {
+      "timestamp": "2025-08-17T19:25:14.679567",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "action": "HOLD",
+      "confidence": 0.09514393747979155,
+      "reasoning": "Légère baisse -0.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:25:16.967143",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "action": "SELL",
+      "confidence": 0.30936530212640423,
+      "reasoning": "Légère baisse -1.5%"
+    },
+    {
+      "timestamp": "2025-08-17T19:25:19.271257",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "action": "HOLD",
+      "confidence": 0.08364685906281721,
+      "reasoning": "Signal neutre"
+    }
+  ],
+  "final_cash": 32.018129087895275,
+  "final_positions": {
+    "ETH": {
+      "quantity": 0.0012485733754346766,
+      "entry_price": 4526.17,
+      "entry_time": "2025-08-17 19:18:34.055441",
+      "reasoning": "Hausse modérée +2.4% | Volume élevé"
+    }
+  },
+  "portfolio_value": 37.66115634404233,
+  "analysis_count": 21
+}

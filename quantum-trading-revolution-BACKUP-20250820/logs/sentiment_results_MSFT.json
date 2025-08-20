@@ -1,0 +1,19 @@
+{
+  "symbol": "MSFT",
+  "overall_sentiment": 0.017454047605118452,
+  "confidence": 0.6524463366716095,
+  "bullish_probability": 0.017454047605118452,
+  "bearish_probability": 0,
+  "neutral_probability": 0.9825459523948815,
+  "twitter_sentiment": 0.016378036176962776,
+  "reddit_sentiment": 0.0,
+  "news_sentiment": 0.0,
+  "sec_sentiment": 0.0,
+  "signal_strength": 0.37205805137842274,
+  "market_correlation": 0.803,
+  "prediction_accuracy": 0.87,
+  "trading_signal": "HOLD",
+  "sentiment_momentum": -0.15147221629947882,
+  "volatility_indicator": 0.017454047605118452,
+  "cross_market_correlation": 0.803
+}

@@ -22,7 +22,7 @@ logger = logging.getLogger("RL_TRADING_AGENT")
 class TradingEnvironment(gym.Env):
     """Environnement de trading corrigé avec gestion correcte"""
     
-    def __init__(self, data: pd.DataFrame, initial_balance: float = 100000):
+    def __init__(self, data: pd.DataFrame, initial_balance: float = 1000):
         super(TradingEnvironment, self).__init__()
         
         self.action_space = spaces.Discrete(3)  # 0=HOLD, 1=BUY, 2=SELL

@@ -1,0 +1,1162 @@
+{
+  "trades": [],
+  "market_data_history": [
+    {
+      "timestamp": "2025-08-17T18:16:26.823119",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:16:39.090868",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:16:49.906385",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:17:00.759601",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:17:11.556591",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:17:22.963028",
+      "symbol": "BTC",
+      "price": 117721.76,
+      "volume": 5607,
+      "change_24h": 0.051,
+      "spread": 0.010000000009313226,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:17:34.306174",
+      "symbol": "ETH",
+      "price": 4508.22,
+      "volume": 368969,
+      "change_24h": 2.623,
+      "spread": 0.009999999999308784,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:17:45.440568",
+      "symbol": "BNB",
+      "price": 853.46,
+      "volume": 155048,
+      "change_24h": 2.646,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:18:26.080539",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:18:36.721878",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:18:47.320194",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:18:57.906468",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:19:08.581867",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:19:19.834489",
+      "symbol": "BTC",
+      "price": 117754.39,
+      "volume": 5613,
+      "change_24h": 0.078,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:19:31.016256",
+      "symbol": "ETH",
+      "price": 4511.06,
+      "volume": 368413,
+      "change_24h": 2.636,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:19:42.122758",
+      "symbol": "BNB",
+      "price": 854.02,
+      "volume": 155538,
+      "change_24h": 2.691,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:20:22.763236",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:20:33.693347",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:20:44.313986",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:20:54.935784",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:21:05.822005",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:21:17.151298",
+      "symbol": "BTC",
+      "price": 117799.7,
+      "volume": 5617,
+      "change_24h": 0.113,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:21:28.417896",
+      "symbol": "ETH",
+      "price": 4516.33,
+      "volume": 368845,
+      "change_24h": 2.732,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:21:39.930023",
+      "symbol": "BNB",
+      "price": 854.77,
+      "volume": 155524,
+      "change_24h": 2.763,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:22:20.609233",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:22:31.385745",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:22:42.240874",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:22:53.352906",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:23:04.242717",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:23:15.924321",
+      "symbol": "BTC",
+      "price": 117804.49,
+      "volume": 5618,
+      "change_24h": 0.117,
+      "spread": 0.010000000009313226,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:23:28.923097",
+      "symbol": "ETH",
+      "price": 4516.18,
+      "volume": 368939,
+      "change_24h": 2.629,
+      "spread": 0.009999999999308784,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:23:40.022926",
+      "symbol": "BNB",
+      "price": 854.78,
+      "volume": 155556,
+      "change_24h": 2.707,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:24:21.019654",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:24:31.639116",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:24:42.228408",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:24:52.850945",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:25:03.807465",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:25:15.050146",
+      "symbol": "BTC",
+      "price": 117802.08,
+      "volume": 5614,
+      "change_24h": 0.064,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:25:26.225451",
+      "symbol": "ETH",
+      "price": 4519.84,
+      "volume": 368919,
+      "change_24h": 2.633,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:25:37.973721",
+      "symbol": "BNB",
+      "price": 855.24,
+      "volume": 155580,
+      "change_24h": 2.72,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:26:18.672403",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:26:29.303665",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:26:39.948458",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:26:50.542993",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:27:01.189481",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:27:13.735775",
+      "symbol": "BTC",
+      "price": 117872.22,
+      "volume": 5618,
+      "change_24h": 0.126,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:27:24.894988",
+      "symbol": "ETH",
+      "price": 4521.4,
+      "volume": 369120,
+      "change_24h": 2.672,
+      "spread": 0.009999999999308784,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:27:36.013008",
+      "symbol": "BNB",
+      "price": 855.39,
+      "volume": 155573,
+      "change_24h": 2.724,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:28:16.656905",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:28:27.298593",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:28:37.904873",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:28:48.508628",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:28:59.115624",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:29:10.619904",
+      "symbol": "BTC",
+      "price": 117814.81,
+      "volume": 5621,
+      "change_24h": 0.077,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:29:21.870005",
+      "symbol": "ETH",
+      "price": 4519.21,
+      "volume": 369128,
+      "change_24h": 2.689,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:29:32.999378",
+      "symbol": "BNB",
+      "price": 855.29,
+      "volume": 155599,
+      "change_24h": 2.73,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:30:13.673459",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:30:24.297953",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:30:34.908668",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:30:45.591779",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:30:56.187854",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:31:07.450868",
+      "symbol": "BTC",
+      "price": 117833.59,
+      "volume": 5624,
+      "change_24h": 0.093,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:31:18.556869",
+      "symbol": "ETH",
+      "price": 4526.75,
+      "volume": 369483,
+      "change_24h": 2.813,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:31:29.657607",
+      "symbol": "BNB",
+      "price": 856.12,
+      "volume": 155644,
+      "change_24h": 2.755,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:32:10.305873",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:32:20.972136",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:32:31.607941",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:32:42.265951",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:32:52.873002",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:33:04.243382",
+      "symbol": "BTC",
+      "price": 117868.01,
+      "volume": 5620,
+      "change_24h": 0.122,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:33:15.499014",
+      "symbol": "ETH",
+      "price": 4527.9,
+      "volume": 369465,
+      "change_24h": 2.826,
+      "spread": 0.009999999999308784,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:33:26.607443",
+      "symbol": "BNB",
+      "price": 856.21,
+      "volume": 155645,
+      "change_24h": 2.736,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:34:07.305190",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:34:18.048649",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:34:28.663376",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:34:39.265876",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:34:49.882400",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:35:01.083686",
+      "symbol": "BTC",
+      "price": 117896.7,
+      "volume": 5625,
+      "change_24h": 0.147,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:35:12.184167",
+      "symbol": "ETH",
+      "price": 4527.89,
+      "volume": 369686,
+      "change_24h": 2.889,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:35:23.341757",
+      "symbol": "BNB",
+      "price": 856.03,
+      "volume": 155668,
+      "change_24h": 2.746,
+      "spread": 0.010000000000104592,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:36:03.985872",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:36:14.682790",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:36:25.295015",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:36:35.893833",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:36:46.500135",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:36:57.732748",
+      "symbol": "BTC",
+      "price": 117909.61,
+      "volume": 5624,
+      "change_24h": 0.169,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:37:09.008596",
+      "symbol": "ETH",
+      "price": 4527.89,
+      "volume": 369763,
+      "change_24h": 2.925,
+      "spread": 0.009999999999308784,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:37:20.225958",
+      "symbol": "BNB",
+      "price": 856.32,
+      "volume": 155640,
+      "change_24h": 2.774,
+      "spread": 0.010000000000104592,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:38:00.880278",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:38:11.519311",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:38:22.114664",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:38:32.708629",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:38:43.305426",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:38:54.579674",
+      "symbol": "BTC",
+      "price": 117923.39,
+      "volume": 5621,
+      "change_24h": 0.207,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:39:05.738205",
+      "symbol": "ETH",
+      "price": 4530.59,
+      "volume": 370007,
+      "change_24h": 2.977,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:39:16.958391",
+      "symbol": "BNB",
+      "price": 856.24,
+      "volume": 155639,
+      "change_24h": 2.764,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:39:57.607499",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:40:08.217499",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:40:18.900176",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:40:29.607589",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:40:40.209421",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:40:51.447583",
+      "symbol": "BTC",
+      "price": 117893.32,
+      "volume": 5624,
+      "change_24h": 0.193,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:41:02.616899",
+      "symbol": "ETH",
+      "price": 4529.54,
+      "volume": 370067,
+      "change_24h": 3.038,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:41:13.798562",
+      "symbol": "BNB",
+      "price": 856.02,
+      "volume": 155590,
+      "change_24h": 2.813,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:41:54.462855",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:42:05.093314",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:42:15.708387",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:42:26.320505",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:42:36.957033",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:42:48.218810",
+      "symbol": "BTC",
+      "price": 117900.57,
+      "volume": 5626,
+      "change_24h": 0.204,
+      "spread": 0.010000000009313226,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:42:59.824862",
+      "symbol": "ETH",
+      "price": 4529.28,
+      "volume": 370174,
+      "change_24h": 3.012,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:43:10.987453",
+      "symbol": "BNB",
+      "price": 855.8,
+      "volume": 155561,
+      "change_24h": 2.761,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:43:51.642563",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:44:02.247507",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:44:12.899537",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:44:23.665480",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:44:34.306612",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:44:45.567071",
+      "symbol": "BTC",
+      "price": 117900.56,
+      "volume": 5625,
+      "change_24h": 0.204,
+      "spread": 0.010000000009313226,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:44:56.710758",
+      "symbol": "ETH",
+      "price": 4530.45,
+      "volume": 370151,
+      "change_24h": 2.98,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:45:07.834070",
+      "symbol": "BNB",
+      "price": 855.74,
+      "volume": 155526,
+      "change_24h": 2.686,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:45:48.553289",
+      "symbol": "AAPL",
+      "price": 231.64999389648438,
+      "volume": 958179,
+      "change_24h": -0.4854389933577923,
+      "spread": 0.23164999389648439,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:45:59.164441",
+      "symbol": "MSFT",
+      "price": 520.1400146484375,
+      "volume": 821189,
+      "change_24h": -0.44785750799737206,
+      "spread": 0.5201400146484375,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:46:09.769655",
+      "symbol": "GOOGL",
+      "price": 203.89999389648438,
+      "volume": 830526,
+      "change_24h": 0.47304200430139354,
+      "spread": 0.2038999938964844,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:46:20.350707",
+      "symbol": "AMZN",
+      "price": 231.05999755859375,
+      "volume": 790218,
+      "change_24h": 0.03463582670988383,
+      "spread": 0.23105999755859374,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:46:30.953464",
+      "symbol": "TSLA",
+      "price": 330.6000061035156,
+      "volume": 916453,
+      "change_24h": -1.4839920936934612,
+      "spread": 0.33060000610351564,
+      "source": "YFinance"
+    },
+    {
+      "timestamp": "2025-08-17T18:46:42.154344",
+      "symbol": "BTC",
+      "price": 117930.47,
+      "volume": 5621,
+      "change_24h": 0.221,
+      "spread": 0.00999999999476131,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:46:53.276913",
+      "symbol": "ETH",
+      "price": 4533.0,
+      "volume": 370063,
+      "change_24h": 3.09,
+      "spread": 0.010000000000218279,
+      "source": "Binance"
+    },
+    {
+      "timestamp": "2025-08-17T18:47:04.408143",
+      "symbol": "BNB",
+      "price": 856.2,
+      "volume": 155516,
+      "change_24h": 2.81,
+      "spread": 0.009999999999990905,
+      "source": "Binance"
+    }
+  ],
+  "decisions": [],
+  "performance": [],
+  "learning_patterns": [],
+  "errors": [],
+  "successful_strategies": []
+}

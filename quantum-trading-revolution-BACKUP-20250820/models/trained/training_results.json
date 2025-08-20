@@ -1,0 +1,16 @@
+{
+  "training_date": "2025-08-17T21:27:19.138020",
+  "data_periods": {
+    "crypto_years": 5,
+    "stocks_years": 5,
+    "macro_years": 5
+  },
+  "patterns_found": 1,
+  "regimes_identified": 1,
+  "correlations_analyzed": 4,
+  "config_optimizations": {
+    "sentiment_weight": 0.3,
+    "mps_weight": 0.4,
+    "quantum_weight": 0.4
+  }
+}

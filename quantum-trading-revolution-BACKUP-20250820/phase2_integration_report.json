@@ -1,0 +1,122 @@
+{
+  "integration_summary": {
+    "total_modules": 5,
+    "successful_integrations": 3,
+    "failed_integrations": 2,
+    "timestamp": 1755565639.7566407
+  },
+  "baseline_performance": {
+    "test_name": "baseline",
+    "iterations": 20,
+    "successful_iterations": 20,
+    "errors": 0,
+    "error_rate": 0.0,
+    "avg_latency_ms": 0.0017549999938637484,
+    "min_latency_ms": 0.0009999985195463523,
+    "max_latency_ms": 0.009899998985929415,
+    "p50_latency_ms": 0.0012999989849049598,
+    "p95_latency_ms": 0.002870000753318896,
+    "p99_latency_ms": 0.0084939993394073,
+    "std_latency_ms": 0.0018961736017850267,
+    "total_time_seconds": 0.0,
+    "throughput_per_second": 0,
+    "timestamp": 1755565639.5886393
+  },
+  "final_performance": {
+    "test_name": "final",
+    "iterations": 20,
+    "successful_iterations": 20,
+    "errors": 20,
+    "error_rate": 1.0,
+    "avg_latency_ms": 0.002505000065866625,
+    "min_latency_ms": 0.0017000002117129043,
+    "max_latency_ms": 0.012900000001536682,
+    "p50_latency_ms": 0.0017999991541728377,
+    "p95_latency_ms": 0.004160000844422036,
+    "p99_latency_ms": 0.01115200017011374,
+    "std_latency_ms": 0.002429912582837161,
+    "total_time_seconds": 0.0,
+    "throughput_per_second": 0,
+    "timestamp": 1755565639.7306416
+  },
+  "module_results": {
+    "model_monitoring": {
+      "status": "failed",
+      "validation_passed": false,
+      "error_message": "'baseline_metrics'",
+      "performance_metrics": null
+    },
+    "online_learning": {
+      "status": "validated",
+      "validation_passed": true,
+      "error_message": "",
+      "performance_metrics": {
+        "test_name": "after_online_learning",
+        "iterations": 10,
+        "successful_iterations": 10,
+        "errors": 10,
+        "error_rate": 1.0,
+        "avg_latency_ms": 0.07328000028792303,
+        "min_latency_ms": 0.0016000012692529708,
+        "max_latency_ms": 0.7100999991962453,
+        "p50_latency_ms": 0.002200000380980782,
+        "p95_latency_ms": 0.39298500005315795,
+        "p99_latency_ms": 0.6466769993676281,
+        "std_latency_ms": 0.21227619142464718,
+        "total_time_seconds": 0.0010001659393310547,
+        "throughput_per_second": 9998.340882002383,
+        "timestamp": 1755565639.6456409
+      }
+    },
+    "multi_agent": {
+      "status": "validated",
+      "validation_passed": true,
+      "error_message": "",
+      "performance_metrics": {
+        "test_name": "after_multi_agent",
+        "iterations": 10,
+        "successful_iterations": 10,
+        "errors": 10,
+        "error_rate": 1.0,
+        "avg_latency_ms": 0.0030199998946045525,
+        "min_latency_ms": 0.0013999997463542968,
+        "max_latency_ms": 0.012900000001536682,
+        "p50_latency_ms": 0.001749999682942871,
+        "p95_latency_ms": 0.008804999924905122,
+        "p99_latency_ms": 0.012080999986210374,
+        "std_latency_ms": 0.0033564267163432903,
+        "total_time_seconds": 0.0,
+        "throughput_per_second": 0,
+        "timestamp": 1755565639.6776419
+      }
+    },
+    "regime_detection": {
+      "status": "validated",
+      "validation_passed": true,
+      "error_message": "",
+      "performance_metrics": {
+        "test_name": "after_regime_detection",
+        "iterations": 10,
+        "successful_iterations": 10,
+        "errors": 10,
+        "error_rate": 1.0,
+        "avg_latency_ms": 0.003589999869291205,
+        "min_latency_ms": 0.0017999991541728377,
+        "max_latency_ms": 0.01320000046689529,
+        "p50_latency_ms": 0.0021999994714860804,
+        "p95_latency_ms": 0.00910500039026373,
+        "p99_latency_ms": 0.012381000451568982,
+        "std_latency_ms": 0.0032971049813482344,
+        "total_time_seconds": 0.0,
+        "throughput_per_second": 0,
+        "timestamp": 1755565639.700641
+      }
+    },
+    "ultra_latency": {
+      "status": "failed",
+      "validation_passed": false,
+      "error_message": "cannot import name 'integrate_ultra_low_latency_optimized' from 'ultra_low_latency_engine' (C:\\Users\\PC\\Desktop\\Agent-trader\\quantum-trading-revolution\\ultra_low_latency_engine.py)",
+      "performance_metrics": null
+    }
+  }
+}

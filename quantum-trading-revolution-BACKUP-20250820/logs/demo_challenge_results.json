@@ -1,0 +1,10 @@
+{
+  "current_capital": 137.0397573234205,
+  "total_return": 0.370397573234205,
+  "max_drawdown": 0.10471249777842748,
+  "sharpe_ratio": 4.682641760091321,
+  "win_rate": 0.6333333333333333,
+  "mps_speedup_achieved": 8.0,
+  "sentiment_accuracy": 0.87,
+  "risk_management_effectiveness": 0.92,
+  "technology_advantage_realized": 
